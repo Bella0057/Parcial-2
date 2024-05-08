@@ -18,21 +18,7 @@ public class examen {
         double totalFactura = subtotal * 0.19 + 5000;
         System.out.println("Total de la factura:" +  totalFactura);
 
-        //EJERCICIO #2
-
-        System.out.print("Ingrese el número de estudiantes: ");
-        int numeroEstudiantes = sc.nextInt();
-        double[] notas = new double[numeroEstudiantes];
-        for (int i = 0; i < numeroEstudiantes; i++) {
-            System.out.print("Ingrese la nota del estudiante " + (i + 1) + ": ");
-            notas[i] = sc.nextDouble();
-        }
-        double promedio = 0;
-        for (int i = 0; i < numeroEstudiantes; i++) {
-            promedio += notas[i];
-        }
-        promedio /= numeroEstudiantes;
-        System.out.println("El promedio de notas es: " + promedio);
+        
 
 
         sc.close();
